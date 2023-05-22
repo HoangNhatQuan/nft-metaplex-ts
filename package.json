@@ -4,7 +4,7 @@
   "description": "Starter template for a Solana client script",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/createNFT.ts"
   },
   "keywords": [],
   "author": "test",

@@ -11,7 +11,6 @@ export async function initializeKeypair(
     const signer = web3.Keypair.generate()
     fs.writeFileSync(".env", `PRIVATE_KEY=[${signer.secretKey.toString()}]`)
     await airdropSolIfNeeded(signer, connection)
-
     return signer
   }
 
